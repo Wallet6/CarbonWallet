@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8831FE02013F1D600F18797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8831FDF2013F1D600F18797 /* AppDelegate.swift */; };
+		F8831FE22013F1D600F18797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8831FE12013F1D600F18797 /* ViewController.swift */; };
+		F8831FE52013F1D600F18797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8831FE32013F1D600F18797 /* Main.storyboard */; };
+		F8831FE72013F1D600F18797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8831FE62013F1D600F18797 /* Assets.xcassets */; };
+		F8831FEA2013F1D600F18797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8831FE82013F1D600F18797 /* LaunchScreen.storyboard */; };
+		F8831FF52013F1D600F18797 /* CarbonWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8831FF42013F1D600F18797 /* CarbonWalletTests.swift */; };
+		F88320002013F1D600F18797 /* CarbonWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8831FFF2013F1D600F18797 /* CarbonWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8831FF12013F1D600F18797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8831FD42013F1D600F18797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8831FDB2013F1D600F18797;
+			remoteInfo = CarbonWallet;
+		};
+		F8831FFC2013F1D600F18797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8831FD42013F1D600F18797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8831FDB2013F1D600F18797;
+			remoteInfo = CarbonWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8831FDC2013F1D600F18797 /* CarbonWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8831FDF2013F1D600F18797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8831FE12013F1D600F18797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8831FE42013F1D600F18797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8831FE62013F1D600F18797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8831FE92013F1D600F18797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8831FEB2013F1D600F18797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8831FF02013F1D600F18797 /* CarbonWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8831FF42013F1D600F18797 /* CarbonWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonWalletTests.swift; sourceTree = "<group>"; };
+		F8831FF62013F1D600F18797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8831FFB2013F1D600F18797 /* CarbonWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8831FFF2013F1D600F18797 /* CarbonWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonWalletUITests.swift; sourceTree = "<group>"; };
+		F88320012013F1D600F18797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8831FD92013F1D600F18797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8831FED2013F1D600F18797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8831FF82013F1D600F18797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8831FD32013F1D600F18797 = {
+			isa = PBXGroup;
+			children = (
+				F8831FDE2013F1D600F18797 /* CarbonWallet */,
+				F8831FF32013F1D600F18797 /* CarbonWalletTests */,
+				F8831FFE2013F1D600F18797 /* CarbonWalletUITests */,
+				F8831FDD2013F1D600F18797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8831FDD2013F1D600F18797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8831FDC2013F1D600F18797 /* CarbonWallet.app */,
+				F8831FF02013F1D600F18797 /* CarbonWalletTests.xctest */,
+				F8831FFB2013F1D600F18797 /* CarbonWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8831FDE2013F1D600F18797 /* CarbonWallet */ = {
+			isa = PBXGroup;
+			children = (
+				F8831FDF2013F1D600F18797 /* AppDelegate.swift */,
+				F8831FE12013F1D600F18797 /* ViewController.swift */,
+				F8831FE32013F1D600F18797 /* Main.storyboard */,
+				F8831FE62013F1D600F18797 /* Assets.xcassets */,
+				F8831FE82013F1D600F18797 /* LaunchScreen.storyboard */,
+				F8831FEB2013F1D600F18797 /* Info.plist */,
+			);
+			path = CarbonWallet;
+			sourceTree = "<group>";
+		};
+		F8831FF32013F1D600F18797 /* CarbonWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8831FF42013F1D600F18797 /* CarbonWalletTests.swift */,
+				F8831FF62013F1D600F18797 /* Info.plist */,
+			);
+			path = CarbonWalletTests;
+			sourceTree = "<group>";
+		};
+		F8831FFE2013F1D600F18797 /* CarbonWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8831FFF2013F1D600F18797 /* CarbonWalletUITests.swift */,
+				F88320012013F1D600F18797 /* Info.plist */,
+			);
+			path = CarbonWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8831FDB2013F1D600F18797 /* CarbonWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88320042013F1D600F18797 /* Build configuration list for PBXNativeTarget "CarbonWallet" */;
+			buildPhases = (
+				F8831FD82013F1D600F18797 /* Sources */,
+				F8831FD92013F1D600F18797 /* Frameworks */,
+				F8831FDA2013F1D600F18797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonWallet;
+			productName = CarbonWallet;
+			productReference = F8831FDC2013F1D600F18797 /* CarbonWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8831FEF2013F1D600F18797 /* CarbonWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88320072013F1D600F18797 /* Build configuration list for PBXNativeTarget "CarbonWalletTests" */;
+			buildPhases = (
+				F8831FEC2013F1D600F18797 /* Sources */,
+				F8831FED2013F1D600F18797 /* Frameworks */,
+				F8831FEE2013F1D600F18797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8831FF22013F1D600F18797 /* PBXTargetDependency */,
+			);
+			name = CarbonWalletTests;
+			productName = CarbonWalletTests;
+			productReference = F8831FF02013F1D600F18797 /* CarbonWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8831FFA2013F1D600F18797 /* CarbonWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F883200A2013F1D600F18797 /* Build configuration list for PBXNativeTarget "CarbonWalletUITests" */;
+			buildPhases = (
+				F8831FF72013F1D600F18797 /* Sources */,
+				F8831FF82013F1D600F18797 /* Frameworks */,
+				F8831FF92013F1D600F18797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8831FFD2013F1D600F18797 /* PBXTargetDependency */,
+			);
+			name = CarbonWalletUITests;
+			productName = CarbonWalletUITests;
+			productReference = F8831FFB2013F1D600F18797 /* CarbonWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8831FD42013F1D600F18797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Galen Wang";
+				TargetAttributes = {
+					F8831FDB2013F1D600F18797 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F8831FEF2013F1D600F18797 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8831FDB2013F1D600F18797;
+					};
+					F8831FFA2013F1D600F18797 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8831FDB2013F1D600F18797;
+					};
+				};
+			};
+			buildConfigurationList = F8831FD72013F1D600F18797 /* Build configuration list for PBXProject "CarbonWallet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8831FD32013F1D600F18797;
+			productRefGroup = F8831FDD2013F1D600F18797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8831FDB2013F1D600F18797 /* CarbonWallet */,
+				F8831FEF2013F1D600F18797 /* CarbonWalletTests */,
+				F8831FFA2013F1D600F18797 /* CarbonWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8831FDA2013F1D600F18797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8831FEA2013F1D600F18797 /* LaunchScreen.storyboard in Resources */,
+				F8831FE72013F1D600F18797 /* Assets.xcassets in Resources */,
+				F8831FE52013F1D600F18797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8831FEE2013F1D600F18797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8831FF92013F1D600F18797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8831FD82013F1D600F18797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8831FE22013F1D600F18797 /* ViewController.swift in Sources */,
+				F8831FE02013F1D600F18797 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8831FEC2013F1D600F18797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8831FF52013F1D600F18797 /* CarbonWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8831FF72013F1D600F18797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88320002013F1D600F18797 /* CarbonWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8831FF22013F1D600F18797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8831FDB2013F1D600F18797 /* CarbonWallet */;
+			targetProxy = F8831FF12013F1D600F18797 /* PBXContainerItemProxy */;
+		};
+		F8831FFD2013F1D600F18797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8831FDB2013F1D600F18797 /* CarbonWallet */;
+			targetProxy = F8831FFC2013F1D600F18797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8831FE32013F1D600F18797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8831FE42013F1D600F18797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8831FE82013F1D600F18797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8831FE92013F1D600F18797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F88320022013F1D600F18797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F88320032013F1D600F18797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F88320052013F1D600F18797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarbonWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = galen.CarbonWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F88320062013F1D600F18797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarbonWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = galen.CarbonWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F88320082013F1D600F18797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarbonWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = galen.CarbonWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbonWallet.app/CarbonWallet";
+			};
+			name = Debug;
+		};
+		F88320092013F1D600F18797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarbonWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = galen.CarbonWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbonWallet.app/CarbonWallet";
+			};
+			name = Release;
+		};
+		F883200B2013F1D600F18797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarbonWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = galen.CarbonWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbonWallet;
+			};
+			name = Debug;
+		};
+		F883200C2013F1D600F18797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarbonWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = galen.CarbonWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbonWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8831FD72013F1D600F18797 /* Build configuration list for PBXProject "CarbonWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88320022013F1D600F18797 /* Debug */,
+				F88320032013F1D600F18797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88320042013F1D600F18797 /* Build configuration list for PBXNativeTarget "CarbonWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88320052013F1D600F18797 /* Debug */,
+				F88320062013F1D600F18797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88320072013F1D600F18797 /* Build configuration list for PBXNativeTarget "CarbonWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88320082013F1D600F18797 /* Debug */,
+				F88320092013F1D600F18797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F883200A2013F1D600F18797 /* Build configuration list for PBXNativeTarget "CarbonWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F883200B2013F1D600F18797 /* Debug */,
+				F883200C2013F1D600F18797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8831FD42013F1D600F18797 /* Project object */;
+}
