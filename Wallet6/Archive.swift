@@ -3,43 +3,43 @@
 //  JsonData
 import Foundation
 import UIKit
+import Dispatch
 
 class Archive: UIViewController {
     
-    var firstName = "Georgiana"
-    var lastName = "Blanda"
+    var name = "Dr. Jonathan Prosacco"
     
-    var name = "Georgiana Blanda"
     @IBOutlet weak var label11: UILabel!
-    
+
     @IBOutlet weak var label12: UILabel!
-    
+
     @IBOutlet weak var label13: UILabel!
-    
+
     @IBOutlet weak var label21: UILabel!
-    
+
     @IBOutlet weak var label22: UILabel!
-    
+
     @IBOutlet weak var label23: UILabel!
-    
+
     @IBOutlet weak var label31: UILabel!
-    
+
     @IBOutlet weak var label32: UILabel!
-    
+
     @IBOutlet weak var label33: UILabel!
-    
+
     @IBOutlet weak var label41: UILabel!
-    
+
     @IBOutlet weak var label42: UILabel!
-    
+
     @IBOutlet weak var label43: UILabel!
-    
+
     @IBOutlet weak var label51: UILabel!
-    
+
     @IBOutlet weak var label52: UILabel!
-    
+
     @IBOutlet weak var label53: UILabel!
-    
+
+
     var list:[DailyStruct] = [DailyStruct]()
     
     struct DailyStruct
@@ -59,12 +59,26 @@ class Archive: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        //self.label51.text = "Hello"
+
+        
+//        var label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+//        label.center = CGPoint(x: 160, y: 240)
+//        label.textAlignment = NSTextAlignment.center
+//        label.text = "I'am a test label"
+//        self.view.addSubview(label)
+        
+
+        DispatchQueue.main.async {
+            self.get_data("http://www.my6footprint.com/api/v1/users")
+            
+            let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+            backgroundImage.image = UIImage(named: "artboard_1_1024.png")
+            backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
+            self.view.insertSubview(backgroundImage, at: 0)
+
+        }
        
-        
-        get_data("http://www.my6footprint.com/api/v1/users")
-        
-        
+        //get_data("http://www.my6footprint.com/api/v1/users")
     }
     
     
@@ -131,12 +145,34 @@ class Archive: UIViewController {
                             list.append(DailyStruct(data_date as! String, data_distance as! Int, data_emission as! Int))
                         }
                         print(list)
+                        DispatchQueue.main.sync {
+                            self.label11.text = self.list[4].date
+                            self.label21.text = self.list[3].date
+                            self.label31.text = self.list[2].date
+                            self.label41.text = self.list[1].date
+                            self.label51.text = self.list[0].date
+                            
+                            self.label12.text = String(self.list[4].distance)
+                            self.label22.text = String(self.list[3].distance)
+                            self.label32.text = String(self.list[2].distance)
+                            self.label42.text = String(self.list[1].distance)
+                            self.label52.text = String(self.list[0].distance)
+                            
+                            self.label13.text = String(self.list[4].emission)
+                            self.label23.text = String(self.list[3].emission)
+                            self.label33.text = String(self.list[2].emission)
+                            self.label43.text = String(self.list[1].emission)
+                            self.label53.text = String(self.list[0].emission)
 
+                        }
                         return
+
                     }
                 }
             }
         }
     }
+    
+
 }
 
