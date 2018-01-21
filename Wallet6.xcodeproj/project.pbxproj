@@ -13,6 +13,9 @@
 		30CDBF32201454C900D0C9C9 /* Wallet6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30CDBF30201454C900D0C9C9 /* Wallet6.xcdatamodeld */; };
 		30CDBF34201454C900D0C9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CDBF33201454C900D0C9C9 /* Assets.xcassets */; };
 		30CDBF37201454C900D0C9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CDBF35201454C900D0C9C9 /* LaunchScreen.storyboard */; };
+		30CDBF3F20145D6300D0C9C9 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDBF3E20145D6300D0C9C9 /* Archive.swift */; };
+		30CDBF4320145DC800D0C9C9 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CDBF4220145DC700D0C9C9 /* Community.swift */; };
+		4C35B604E8DBD4C34C1B36DE /* Pods_Wallet6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5435F15FC485BD6338604FD1 /* Pods_Wallet6.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		30CDBF33201454C900D0C9C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30CDBF36201454C900D0C9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30CDBF38201454C900D0C9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CDBF3E20145D6300D0C9C9 /* Archive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		30CDBF4220145DC700D0C9C9 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Community.swift; path = /Users/Danny/Desktop/Wallet6/Wallet6/Community.swift; sourceTree = "<absolute>"; };
+		5435F15FC485BD6338604FD1 /* Pods_Wallet6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallet6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90338AD3DAD248F7F4E057B /* Pods-Wallet6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wallet6/Pods-Wallet6.debug.xcconfig"; sourceTree = "<group>"; };
+		D088EE6ECF65ECCA0A041353 /* Pods-Wallet6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet6.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wallet6/Pods-Wallet6.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C35B604E8DBD4C34C1B36DE /* Pods_Wallet6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2186CF43AF0DF98BB8226C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A90338AD3DAD248F7F4E057B /* Pods-Wallet6.debug.xcconfig */,
+				D088EE6ECF65ECCA0A041353 /* Pods-Wallet6.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FDD0672E342DCCEC726D6AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5435F15FC485BD6338604FD1 /* Pods_Wallet6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30CDBF1D201454C800D0C9C9 = {
 			isa = PBXGroup;
 			children = (
 				30CDBF28201454C900D0C9C9 /* Wallet6 */,
 				30CDBF27201454C900D0C9C9 /* Products */,
+				2186CF43AF0DF98BB8226C0A /* Pods */,
+				2FDD0672E342DCCEC726D6AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,8 @@
 			children = (
 				30CDBF29201454C900D0C9C9 /* AppDelegate.swift */,
 				30CDBF2B201454C900D0C9C9 /* ViewController.swift */,
+				30CDBF4220145DC700D0C9C9 /* Community.swift */,
+				30CDBF3E20145D6300D0C9C9 /* Archive.swift */,
 				30CDBF2D201454C900D0C9C9 /* Main.storyboard */,
 				30CDBF33201454C900D0C9C9 /* Assets.xcassets */,
 				30CDBF35201454C900D0C9C9 /* LaunchScreen.storyboard */,
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30CDBF3B201454C900D0C9C9 /* Build configuration list for PBXNativeTarget "Wallet6" */;
 			buildPhases = (
+				DF0F0C9CB5E06077C92DF12A /* [CP] Check Pods Manifest.lock */,
 				30CDBF22201454C800D0C9C9 /* Sources */,
 				30CDBF23201454C800D0C9C9 /* Frameworks */,
 				30CDBF24201454C800D0C9C9 /* Resources */,
+				C624393CA42F36986FCFAE04 /* [CP] Embed Pods Frameworks */,
+				C5F6B05680C8900960BAF8C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +167,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C5F6B05680C8900960BAF8C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wallet6/Pods-Wallet6-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C624393CA42F36986FCFAE04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wallet6/Pods-Wallet6-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wallet6/Pods-Wallet6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0F0C9CB5E06077C92DF12A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wallet6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30CDBF22201454C800D0C9C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CDBF4320145DC800D0C9C9 /* Community.swift in Sources */,
 				30CDBF2C201454C900D0C9C9 /* ViewController.swift in Sources */,
 				30CDBF2A201454C900D0C9C9 /* AppDelegate.swift in Sources */,
+				30CDBF3F20145D6300D0C9C9 /* Archive.swift in Sources */,
 				30CDBF32201454C900D0C9C9 /* Wallet6.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +365,7 @@
 		};
 		30CDBF3C201454C900D0C9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90338AD3DAD248F7F4E057B /* Pods-Wallet6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +381,7 @@
 		};
 		30CDBF3D201454C900D0C9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D088EE6ECF65ECCA0A041353 /* Pods-Wallet6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
